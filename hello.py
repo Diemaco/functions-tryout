@@ -1,4 +1,6 @@
-def hello():
-    print('Hello from function town')
+def helloWorld(t: int = 1):
+    for i in range(t):
+        print('Hello from function town')
 
-hello()
+
+helloWorld()
